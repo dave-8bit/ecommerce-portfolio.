@@ -1,0 +1,20 @@
+:root{
+  --bg:#07070b;
+  --card:#0f0f14;
+  --muted:#9aa0a6;
+  --accent1:#7ef0ff;
+  --accent2:#b86bff;
+  --glow: 0 6px 18px rgba(126,240,255,0.12), 0 2px 6px rgba(184,107,255,0.08);
+  --container: 1100px;
+  --radius: 14px;
+}
+*{box-sizing:border-box}
+html,body,#root{height:100%}
+body{
+  margin:0;
+  font-family: Inter, sans-serif;
+  background: linear-gradient(180deg, #05050a 0%, #0a0a0f 100%);
+  color: #e6eef8;
+}
+.container{max-width:var(--container);margin:0 auto;padding:2rem}
+/* simplified styles for brevity */
